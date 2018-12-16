@@ -1,0 +1,34 @@
+.video-bannder {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 580px;
+}
+.video-bannder video {
+  margin-top: -11.5%;
+  width: 100%;
+}
+.video-bannder-content {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  /*padding-top: 9%;*/
+  padding-top: 4%;
+  background: rgba(  0, 0, 0, 0.5);
+}
+.video-bannder-content h1 {
+  color:#FFFFFF;
+  font-size:46px;
+  margin-top:0px;
+}
+.video-bannder-content h2 {
+  color:#FFFFFF;
+  margin-top:0px;
+  font-size: 42px;
+}
+.video-bannder-content p {
+  color:#FFFFFF;
+  font-size:24px;
+}

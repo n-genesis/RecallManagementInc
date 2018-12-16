@@ -1,0 +1,356 @@
+/**
+ * Main Sheet
+ * Developed by: N-Gen Desing <http://ngendesign.net>
+ * Author: Andrew Nite <ngendesign@email.com>
+ * "Building to simply build"
+ */
+@import url("icons.css");
+#page-contet {
+  
+}
+/*--------------------------------------------------------------------------
+ Miss. Style
+ --------------------------------------------------------------------------*/
+.min-height {
+  min-height:80vh;
+}
+.min-padding {
+  padding:8vh 0 12vh;
+}
+.title-underline:after{
+  content: "";
+  width: 40%;
+  height: 2px;
+  display: block;
+  background-color: #3f50b5;
+  margin-top: 8px;
+  position: relative;
+}
+.title-underline-center:after{
+  content: "";
+  width: 40%;
+  height: 2px;
+  display: block;
+  background-color: #3f50b5;
+  margin-top: 8px;
+  position: relative;
+  left:30%;
+}
+.header-cap {
+  text-transform: capitalize;
+}
+/*--------------------------------------------------------------------------
+ Navbar
+ --------------------------------------------------------------------------*/
+.mega-dropdown {
+	position: static !important;
+}
+.mega-dropdown .dropdown-menu {
+    max-height: 90vh;
+}
+@media only screen and (max-width: 576px) {
+  .mega-dropdown .dropdown-menu {
+    max-height: 64vh;
+}
+}
+.mega-dropdown-menu {
+	padding: 20px 0px;
+	width: 100%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	overflow-x:hidden;
+	overflow-y: auto;
+}
+.mega-dropdown-menu  ul  li {
+	list-style: none;
+	display: block;
+	width: 100%;
+	padding: 3px 1.5rem 3px 0px;
+	clear: both;
+	font-weight: 400;
+	color: #292b2c;
+	text-align: inherit;
+	white-space: nowrap;
+	background: 0 0;
+	border: 0;
+}
+.mega-dropdown-menu ul li a {
+	display: block;
+	color: #111111;
+	padding: 3px 5px;
+}
+
+.mega-dropdown-menu .dropdown-header {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	padding: 5px 60px 5px 5px;
+}
+
+/*--------------------------------------------------------------------------
+ How it works
+ --------------------------------------------------------------------------*/
+#how-it-works {
+  padding: 50px 0;
+}
+/*--------------------------------------------------------------------------
+ Three Options
+ --------------------------------------------------------------------------*/
+#three-options {
+  position: relative;
+  top:-96px;
+  margin-bottom:-96px;
+}
+#three-options .card-block img {
+  margin-bottom:22px;
+}
+/*--------------------------------------------------------------------------
+  Home Service block Styles
+--------------------------------------------------------------------------*/
+#services-block {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/background/service-section.png);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: 50% center;
+  background-size: cover;
+  
+}
+#services-block .headline {
+  color:#FFFFFF !important;
+}
+#services-block .headline {
+  margin-top:0px;
+}
+/*--------------------------------------------------------------------------
+  Account
+--------------------------------------------------------------------------*/
+#account-login {
+  background-image: url(../image/background/workdesk-white.jpg);
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position:left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#account-register {
+  /*
+  background-image: url(../image/background/workstation.jpg);
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position:left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+  background-color: #f7f7f7;
+}
+
+#account-vid {
+  border: 4px solid #3f6eb5;
+}
+
+.icon-box-1 {
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 15px;
+}
+.icon-box-1.alternative {
+  padding: 20px;
+  padding-bottom: 15px;
+}
+.icon-box-1 .icon-container {
+  font-size: 66px;
+  color: #fff;
+  background-color: #274abb;
+    border-color: rgba(39, 74, 187,0.3);
+  height: 160px;
+  width: 160px;
+  line-height: 130px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 13px;
+  display: inline-block;
+  position: relative;
+  -moz-background-clip: padding;     /* Firefox 3.6 */
+  -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+  background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+  border-width: 14px;
+  border-style: solid;
+}
+.icon-box-1.alternative .icon-container {
+  font-size: 60px;
+  height: 130px;
+  width: 130px;
+  line-height: 130px;
+}
+.icon-box-1 .icon-container i {
+  opacity: 1;
+  transform: translate3d(0,0,0) scale(1);
+  transition: all 0.2s ease-in;
+  display: inline-block;
+}
+.icon-box-1:hover .icon-container i {
+  opacity: 0;
+  transform: translate3d(0,0,0) scale(1.16);
+}
+.icon-box-1.alternative:hover .icon-container i {
+  opacity: 1;
+  transform: translate3d(0,0,0) scale(1);
+}
+.icon-box-1 .icon-container .icon-links {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(0) scale(1.2);
+  transition: all 0.2s ease-in;
+  display: block;
+}
+.icon-box-1 .icon-container .icon-links a {
+  display: block;
+  color: #fff;
+  padding: 5px 20px;
+  transition: all 0.2s;
+  position: relative;
+}
+.icon-box-1:hover .icon-container .icon-links {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(0) scale(1);
+}
+.icon-box-1 h3 {
+  font-size: 26px;
+  color:#FFFFFF;
+}
+.icon-box-1.alternative h3 {
+  font-size: 23px;
+}
+.icon-box-1 p {
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 18px 0 0 0;
+}
+.icon-box-1.alternative p {
+  font-size: 16px;
+  line-height: 29px;
+}
+.icon-box-1.alternative {
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.icon-box-1.alternative:after {
+  content: "";
+  width: 120%;
+  height: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  z-index: 8;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-out;
+  opacity: 0;
+  transform: translate3d(30%,-30%,0) scale(1) rotate(45deg);
+}
+.icon-box-1.alternative:hover:after {
+  height: 62%;
+  opacity: 0.06;
+}
+/*--------------------------------------------------------------------------
+ Price List
+ --------------------------------------------------------------------------*/
+#price-list {
+  
+}
+
+/*--------------------------------------------------------------------------
+ CSS Placeholder
+ --------------------------------------------------------------------------*/
+.FB-Loading-Card{
+  background-color: rgb(255, 255, 255);
+  border: rgb(208, 209, 213) solid 1px;
+  display: block;
+  height: 118px;
+  padding: 12px;
+  margin-bottom:22px;
+}
+/* FB Loading - First Box */
+.FB-Loading-Card > div:nth-child(1){
+  width:100%;
+  height:30px;
+}
+/* FB Loading - Image Box */
+.FB-Loading-Card > div > div:nth-child(1){
+  position:relative;
+  left:0;
+  background-color: #CCC;
+  height: 40px;
+  width: 40px;
+  animation-name: shine; 
+  animation-duration: 2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* FB Loading - First Row */
+.FB-Loading-Card > div > div:nth-child(2), 
+/* FB Loading - Second Row */
+.FB-Loading-Card > div > div:nth-child(3), 
+/* FB Loading - Third Row */
+.FB-Loading-Card > div:nth-child(2), 
+/* FB Loading - Fourth Row */
+.FB-Loading-Card > div:nth-child(3), 
+/* FB Loading - Fifth Row */
+.FB-Loading-Card > div:nth-child(4){
+  position:relative;
+  background-color: #CCC;
+  height: 6px;
+  animation-name: shine; 
+  animation-duration: 2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes shine {
+    from {transition:none;}
+    to {background-color:#f6f7f8;transition: all 0.3s ease-out;}
+}
+/* FB Loading - First Row */
+.FB-Loading-Card > div > div:nth-child(2){
+  left:50px;
+  top:-33px;
+  width: 25%;
+}
+/* FB Loading - Second Row */
+.FB-Loading-Card > div > div:nth-child(3){
+  left:50px;
+  top:-20px;
+  width: 15%;
+}
+/* FB Loading - Third Row */
+.FB-Loading-Card > div:nth-child(2){
+  left:0px;
+  top:20px;
+  width: 80%;
+}
+/* FB Loading - Fourth Row */
+.FB-Loading-Card > div:nth-child(3){
+  left:0px;
+  top:30px;
+  width: 90%;
+}
+/* FB Loading - Fifth Row */
+.FB-Loading-Card > div:nth-child(4){
+  left:0px;
+  top:40px;
+  width: 50%;
+}
+
