@@ -1,0 +1,33 @@
+<?php
+// Text
+$_['text_dashboard']            = 'Dashboard';
+$_['text_website_options']      = 'Website Options';
+$_['text_layout']               = 'Layout';
+$_['text_articles']             = 'Articles';
+$_['text_modules']              = 'Modules';
+$_['text_page_layouts']         = 'Page Layouts';
+$_['text_site_themes']          = 'Site Themes';
+$_['text_seo']                  = 'SEO';
+$_['text_analytics']            = 'Analytics';
+$_['text_captcha']              = 'Captcha';
+$_['text_rss_feeds']            = 'RSS/Feeds';
+$_['text_customer_center']      = 'Customer Center';
+$_['text_customers']            = 'Customers';
+$_['text_customers_online']     = 'Customers Online';
+$_['text_customer_activity']    = 'Customer Activity';
+$_['text_customer_groups']      = 'Customer Groups';
+$_['text_support_desk']         = 'Support Desk';
+$_['text_messages']             = 'Messages';
+$_['text_system']               = 'System';
+$_['text_settings']             = 'Settings';
+$_['text_languages']            = 'Languages';
+$_['text_countries']            = 'Countries';
+$_['text_zones']                = 'Zones';
+$_['text_users']                = 'Users';
+$_['text_user_groups']          = 'User Groups';
+$_['text_application']          = 'Application';
+$_['text_newsletter']           = 'Newsletter';
+$_['text_assignment_statuses']  = 'Assignment Statuses';
+$_['text_tools']                = 'Tools';
+$_['text_uploads']              = 'Uploads';
+$_['text_error_log']            = 'Error Log';
