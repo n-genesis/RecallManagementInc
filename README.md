@@ -1,6 +1,6 @@
 # RecallManagementInc
 
-![GitHub stars](https://img.shields.io/github/stars/n-genesis/RecallManagementInc?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/n-genesis/RecallManagementInc?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/n-genesis/RecallManagementInc?style=for-the-badge&logo=github) ![License](https://img.shields.io/badge/license-ForlicensingseeLICENSEmdorhttpckeditorcomlicense-green?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/n-genesis/RecallManagementInc?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/n-genesis/RecallManagementInc?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/n-genesis/RecallManagementInc?style=for-the-badge&logo=github)
 
 ## 📑 Table of Contents
 
