@@ -26,7 +26,7 @@ RecallManagementInc (RMI) is a comprehensive Web and CRM administrative suite de
 ```bash
 
 # Clone the repository
-git clone https://github.com/n-genesis/RecallManagementInc/blob/develop.git
+git clone https://github.com/n-genesis/RecallManagementInc
 
 # Install dependencies and run
 
