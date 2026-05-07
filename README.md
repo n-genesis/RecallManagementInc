@@ -211,7 +211,7 @@ git clone https://github.com/n-genesis/RecallManagementInc
 Contributions are welcome! Here's how you can help:
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/n-genesis/RecallManagementInc/blob/develop.git`
+2. **Clone** your fork: `git clone https://github.com/n-genesis/RecallManagementInc`
 3. **Create** a new branch: `git checkout -b feature/your-feature`
 4. **Commit** your changes: `git commit -am 'Add some feature'`
 5. **Push** to your branch: `git push origin feature/your-feature`
@@ -224,4 +224,4 @@ Please ensure your code follows the project's style guidelines and includes test
 This project is licensed under the For licensing, see LICENSE.md or http://ckeditor.com/license. License.
 
 ---
-*This README was generated with ❤️ by [ReadmeBuddy](https://readmebuddy.com)*
+*This README was developeted  by [N-Gen Design](https://ngendesgin.com)*
