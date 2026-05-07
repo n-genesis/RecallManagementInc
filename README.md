@@ -219,9 +219,5 @@ Contributions are welcome! Here's how you can help:
 
 Please ensure your code follows the project's style guidelines and includes tests where applicable.
 
-## 📜 License
-
-This project is licensed under the For licensing, see LICENSE.md or http://ckeditor.com/license. License.
-
 ---
 *This README was developeted  by [N-Gen Design](https://ngendesgin.com)*
